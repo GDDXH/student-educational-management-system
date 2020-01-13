@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-15 13:22:38 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.scy.bean.Stu" table="shency_Students07">
+        <id name="sno" type="java.lang.String">
+            <column name="SCY_SNO" />
+            <generator class="assigned" />
+        </id>
+        <property name="sname" type="java.lang.String">
+            <column name="SCY_SNAME" />
+        </property>
+        <property name="spassword" type="java.lang.String">
+            <column name="SCY_SPASSWORD" />
+        </property>
+        <property name="ssex" type="java.lang.String">
+            <column name="SCY_SSEX" />
+        </property>
+        <property name="sage" type="java.lang.Integer">
+            <column name="SCY_SAGE" />
+        </property>
+        <property name="syear" type="java.lang.Integer">
+            <column name="SCY_SYEAR" />
+        </property>
+        <property name="saddress" type="java.lang.String">
+            <column name="SCY_SADDRESS" />
+        </property>
+        <property name="scredit" type="double">
+            <column name="SCY_SCREDIT" />
+        </property>
+        <property name="clno" type="java.lang.String">
+            <column name="SCY_CLNO" />
+        </property>
+    </class>
+</hibernate-mapping>

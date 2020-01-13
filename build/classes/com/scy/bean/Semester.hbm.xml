@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-10 23:54:23 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.scy.bean.Semester" table="shency_Semester07">
+        <id name="termname" type="java.lang.String">
+            <column name="SCY_TERMNAME" />
+            <generator class="assigned" />
+        </id>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-11 16:36:54 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.scy.bean.ClassCourse" table="shency_ccView07">
+        <id name="scy_cno" type="java.lang.String">
+            <column name="SCY_CNO" />
+            <generator class="assigned" />
+        </id>
+        <property name="scy_clno" type="java.lang.String">
+            <column name="SCY_CLNO" />
+        </property>
+        <property name="scy_tno" type="java.lang.String">
+            <column name="SCY_TNO" />
+        </property>
+        <property name="scy_cname" type="java.lang.String">
+            <column name="SCY_CNAME" />
+        </property>
+        <property name="scy_cterm" type="java.lang.String">
+            <column name="SCY_CTERM" />
+        </property>
+        <property name="scy_ctest" type="java.lang.String">
+            <column name="SCY_CTEST" />
+        </property>
+        <property name="scy_credit" type="java.lang.String">
+            <column name="SCY_CREDIT" />
+        </property>
+        <property name="scy_tname" type="java.lang.String">
+            <column name="SCY_TNAME" />
+        </property>
+    </class>
+</hibernate-mapping>

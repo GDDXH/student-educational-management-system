@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-11 16:38:42 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.scy.bean.StudentCourseReport" table="shency_scView07">
+        <composite-id>
+            <!-- key-property标签表示哪一些属性对应复合主键 -->
+            <key-property name="scy_cno" column="SCY_CNO" type="java.lang.String"></key-property>
+            <key-property name="scy_sno" column="SCY_SNO" type="java.lang.String"></key-property>
+        </composite-id>
+        <property name="scy_sname" type="java.lang.String">
+            <column name="SCY_SNAME" />
+        </property>
+        <property name="scy_cname" type="java.lang.String">
+            <column name="SCY_CNAME" />
+        </property>
+        <property name="scy_report" type="double">
+            <column name="SCY_REPORT" />
+        </property>
+        <property name="scy_cterm" type="java.lang.String">
+            <column name="SCY_CTERM" />
+        </property>
+        <property name="scy_credit" type="int">
+            <column name="SCY_CREDIT" />
+        </property>
+    </class>
+</hibernate-mapping>
